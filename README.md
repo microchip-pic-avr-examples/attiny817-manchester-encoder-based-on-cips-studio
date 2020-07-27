@@ -35,4 +35,4 @@ The Manchester-encoded signal is output to PA4.
 
 ## Conclusion
 
-This example has now illustrated how you can measure the accuracy of the external crystal.
+This example has now illustrated how you can implement a Manchester Encoder using CIPs.
