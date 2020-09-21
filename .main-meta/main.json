@@ -1,0 +1,75 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-manchester-encoder-based-on-cips-studio",
+        "version": "1.0.0",
+        "displayName": "Manchester Encoder Based on CIPs",
+        "projectName": "attiny817-manchester-encoder-based-on-cips-studio",
+        "shortDescription": "This example implements a Manchester encoder using Core Independent Peripherals.",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.6.316"
+        },
+        "configurator": {
+            "name": "START",
+            "semverRange": ">=1.7.360"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny817",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            "START",
+            [
+                "Peripherals",
+                "USART"
+            ],
+            [
+                "Peripherals",
+                "CCL"
+            ],
+            [
+                "Development Kit",
+                "ATtiny817 Xplained Pro"
+            ]
+        ],
+        "peripherals": [
+            "USART",
+            "CCL"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
